@@ -4,4 +4,5 @@
 **Shell:** bash \
 **Status bar:** polybar \
 **Compositor:** picom \
-**Font:** Iosevka
+**Font:** Iosevka \
+**Colorscheme:** Pywal

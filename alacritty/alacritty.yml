@@ -1,0 +1,64 @@
+# BEGIN ACE
+colors:
+  primary:
+    background: '#100912'
+    foreground: '#f0d1d9'
+  cursor:
+    text:       '#100912'
+    cursor:     '#f0d1d9'
+  normal:
+    black:      '#100912'
+    red:        '#9A556D'
+    green:      '#FC9677'
+    yellow:     '#A86C8B'
+    blue:       '#CF7891'
+    magenta:    '#EB97A1'
+    cyan:       '#FED9AC'
+    white:      '#f0d1d9'
+  bright:
+    black:      '#a89297'
+    red:        '#9A556D'
+    green:      '#FC9677'
+    yellow:     '#A86C8B'
+    blue:       '#CF7891'
+    magenta:    '#EB97A1'
+    cyan:       '#FED9AC'
+    white:      '#f0d1d9'
+# END ACE
+
+font:
+  # Normal (roman) font face
+  normal:
+    family: Iosevka
+    # The `style` can be specified to pick a specific face.
+    style: Regular
+
+  # Bold font face
+  bold:
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+
+  # Italic font face
+  italic:
+    # The `style` can be specified to pick a specific face.
+    style: Italic
+
+  # Italic Bold font face
+  italic:
+    # The `style` can be specified to pick a specific face.
+    style: Bold Italic
+
+  size: 6
+
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  padding:
+    x: 4
+    y: 4

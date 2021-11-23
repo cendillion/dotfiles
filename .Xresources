@@ -1,0 +1,3 @@
+URxvt.scrollBar: false
+URxvt.font: xft:Iosevka:size=11
+URxvt.transparent: false

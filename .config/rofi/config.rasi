@@ -151,4 +151,5 @@ configuration {
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
 //@import "~/.cache/wal/colors-rofi-light"
-@import "themes/theme"
+//@import "themes/theme"
+@import "themes/newtheme"

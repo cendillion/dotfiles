@@ -1,4 +1,3 @@
-# BEGIN ACE
 window:
   padding:
     x: 3
@@ -31,7 +30,6 @@ colors:
     magenta:    '#ff86b3'
     cyan:       '#ffffb4'
     white:      '#ffedf6'
-# END ACE
 
 font:
   # Normal (roman) font face

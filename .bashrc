@@ -18,6 +18,7 @@ alias ins='sudo xbps-install -S'
 alias rem='sudo xbps-remove -R'
 alias ser='xbps-query'
 
+alias remorp='sudo xbps-remove -Oo'
 alias manupd='sudo makewhatis /usr/share/man'
 
 #PS1='[\u@\h \W]\$ '
@@ -25,5 +26,7 @@ PS1='\W > '
 
 # Import colorscheme from wpg
 (cat $HOME/.config/wpg/sequences &)
+
+export PATH=~/bin:~/.cargo/bin:$PATH
 
 PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/\~} - $(xdotool getactivewindow getwindowclassname)\007"'

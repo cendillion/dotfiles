@@ -1,35 +1,34 @@
 window:
   padding:
-    x: 3
+    x: 2
     y: 2
   dynamic_padding: true
   dynamic_title: true
 
 colors:
   primary:
-    background: '#100912'
-    foreground: '#f0d1d9'
-  cursor:
-    text:       '#100912'
-    cursor:     '#f0d1d9'
+    background: "#2d2a2e"
+    foreground: "#e3e1e4"
+
   normal:
-    black:      '#100912'
-    red:        '#9A556D'
-    green:      '#EB97A1'
-    yellow:     '#FC9677'
-    blue:       '#A86C8B'
-    magenta:    '#CF7891'
-    cyan:       '#FED9AC'
-    white:      '#f0d1d9'
+    black: "#1a181a"
+    red: "#f85e84"
+    green: "#9ecd6f"
+    yellow: "#e5c463"
+    blue: "#7accd7"
+    magenta: "#ab9df2"
+    cyan: "#ef9062"
+    white: "#e3e1e4"
+
   bright:
-    black:      '#63476d'
-    red:        '#d75e88'
-    green:      '#ffabbe'
-    yellow:     '#ffb682'
-    blue:       '#ec7ab5'
-    magenta:    '#ff86b3'
-    cyan:       '#ffffb4'
-    white:      '#ffedf6'
+    black: "#848089"
+    red: "#f85e84"
+    green: "#9ecd6f"
+    yellow: "#e5c463"
+    blue: "#7accd7"
+    magenta: "#ab9df2"
+    cyan: "#ef9062"
+    white: "#e3e1e4"
 
 font:
   # Normal (roman) font face

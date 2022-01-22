@@ -22,11 +22,15 @@ alias ser='xbps-query'
 alias remorp='sudo xbps-remove -Oo'
 alias manupd='sudo makewhatis /usr/share/man'
 
+alias virtualpet='v -S ~/dev/virtualpet/Session.vim'
+
 #PS1='[\u@\h \W]\$ '
 PS1='\W > '
 
 # Export additional PATH
 export PATH=~/bin:~/.cargo/bin:$PATH
 
+export LUTRIS_SKIP_INIT=1
+
 # Set terminal window title
-PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/\~} - $(xdotool getactivewindow getwindowclassname)\007"'
+PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/\~}\007"'

@@ -16,16 +16,17 @@ picom &
 # WM configs
 bspc config automatic_scheme      alternate
 bspc config border_width          0
-bspc config window_gap            12
+bspc config window_gap            8
 bspc config split_ratio           0
 bspc config borderless_monocle    true
 bspc config gapless_monocle       false
 
 # Window rules
-bspc rule -a mpv            desktop='^9'
-bspc rule -a Zathura        state=tiled
-bspc rule -a Virt-manager   state=pseudo_tiled
-bspc rule -a Gimp           desktop='^8' state=floating follow=on
-bspc rule -a mplayer2       state=floating
-bspc rule -a Kupfer.py      focus=on
-bspc rule -a Screenkey      manage=off
+bspc rule -a qBittorrent          desktop='^9'
+bspc rule -a mpv                  desktop='^9'
+bspc rule -a Zathura              state=tiled
+bspc rule -a Virt-manager         state=pseudo_tiled
+bspc rule -a Gimp                 desktop='^8' state=floating follow=on
+bspc rule -a mplayer2             state=floating
+bspc rule -a Kupfer.py            focus=on
+bspc rule -a Screenkey            manage=off

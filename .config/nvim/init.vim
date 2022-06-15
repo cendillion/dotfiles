@@ -5,6 +5,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'sainnhe/sonokai'
+"Plug 'sainnhe/gruvbox-material'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -13,7 +14,7 @@ let g:lightline = {}
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
 	-- One of "all", "maintained" (parsers with maintainers), or a list of languages
-	ensure_installed = { "cpp", },
+	ensure_installed = { "cpp", "rust", "python", "bash" },
 	
 	-- Install languages synchronously (only applied to `ensure_installed`)
 	sync_install = false,
@@ -26,7 +27,7 @@ require'nvim-treesitter.configs'.setup {
 		enable = true,
 		
 		-- list of language that will be disabled
-		disable = { "c", "rust" },
+		disable = { "c" },
 		
 		additional_vim_regex_highlighting = false,
 	},
@@ -37,6 +38,7 @@ nnoremap <a-e> :Files<CR>
 
 set termguicolors
 let g:sonokai_style = 'shusia'
+"let g:gruvbox_material_better_performance = 1
 colorscheme sonokai
 let g:lightline.colorscheme = 'sonokai'
 

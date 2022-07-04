@@ -14,7 +14,7 @@ let g:lightline = {}
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
 	-- One of "all", "maintained" (parsers with maintainers), or a list of languages
-	ensure_installed = { "cpp", "rust", "python", "bash" },
+	ensure_installed = { "cpp", "rust", "python", "bash", "c" },
 	
 	-- Install languages synchronously (only applied to `ensure_installed`)
 	sync_install = false,

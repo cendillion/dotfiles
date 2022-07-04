@@ -41,11 +41,9 @@ alias apps='n ~/.local/share/applications'
 alias rapps='n /usr/share/applications'
 
 alias todo='vim ~/.todo'
-alias adl="yt-dlp -f 'ba' -x --audio-format mp3 --embed-metadata"
-alias backup="sudo rsync -aRv --delete --exclude=/home/alfie/games --exclude=/home/alfie/vbox --exclude=/home/alfie/.steamhome --exclude=/home/alfie/.local/share/Steam --exclude=/home/alfie/.local/share/flatpak /home/alfie /etc /usr/local /.backup"
+alias proj='vim ~/dev/projects'
 
-alias virtualpet='v -S ~/dev/virtualpet/Session.vim'
-alias oop='v -S ~/dev/oop/Session.vim'
+alias oop='vim -S ~/dev/oop/Session.vim'
 
 # Export additional PATH
 export PATH=~/bin:~/.cargo/bin:$PATH
@@ -59,3 +57,5 @@ function precmd () {
 
 # Todo list
 cat ~/.todo
+# Personal projects
+cat ~/dev/projects

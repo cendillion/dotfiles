@@ -35,5 +35,5 @@
 *.color15:      #e3e1e4
 
 URxvt*scrollBar: false
-URxvt*font: xft:Iosevka:size=11
+URxvt*font: xft:FantasqueSansMono:size=11
 URxvt*transparent: false

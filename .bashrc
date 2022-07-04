@@ -29,7 +29,7 @@ alias virtualpet='v -S ~/dev/virtualpet/Session.vim'
 alias oop='v -S ~/dev/oop/Session.vim'
 
 #PS1='[\u@\h \W]\$ '
-PS1='\W > '
+PS1='\w > '
 
 # Export additional PATH
 export PATH=~/bin:~/.cargo/bin:$PATH
